@@ -19,8 +19,7 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
   }
   
   function accessElementInArray(array, index) {
-    console.log(array[index])
-    return index
+    return array[index]
   }
   
   function destructivelyRemoveElementFromBeginningOfArray(array) {
